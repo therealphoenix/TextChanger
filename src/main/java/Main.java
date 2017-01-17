@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println();
         System.out.println("Sentence after change: " + sentence.getText());
-        
+
 
        // System.out.println(new Changer().replace("We are gonna win", 2, '2'));
     }
