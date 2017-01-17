@@ -1,10 +1,13 @@
+/*
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+*/
 /**
  * Created by Hp on 17.01.2017.
- */
+ *//*
+
 public class Changer {
 
     public Sentence change(Sentence sentence, int position, char letter) {
@@ -30,7 +33,7 @@ public class Changer {
             sentence.setText(new String(result));
         return sentence;
     }
-    
+
         public String replace(String str, int index, char replace){
             if( str == null ){
                 return str;
@@ -47,3 +50,4 @@ public class Changer {
 
     }
 
+*/

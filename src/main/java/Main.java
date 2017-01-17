@@ -1,7 +1,5 @@
-import java.io.BufferedReader;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.Buffer;
 import java.util.Scanner;
 
 /**
@@ -25,12 +23,18 @@ public class Main {
 
 
         Sentence sentence = new Sentence(text);
-        Changer changer = new Changer();
-        System.out.print("Sentence before change: " + sentence.getText());
-        changer.change(sentence, position, symbol);
-
+      //  Changer changer = new Changer();
+         System.out.print("Sentence before change: " + sentence.getOriginalText() );
+      //  changer.change(sentence, position, symbol);
         System.out.println();
-        System.out.println("Sentence after change: " + sentence.getText());
+
+        System.out.print("Sentence after change: " );
+
+        for(Word word : sentence.getSentence()){
+            System.out.print(sentence.getWordWithModifiedChar(word,position,symbol) + " ");
+        }
+        System.out.println();
+
 
 
        // System.out.println(new Changer().replace("We are gonna win", 2, '2'));
