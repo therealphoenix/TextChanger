@@ -1,14 +1,9 @@
-
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * Created by Hp on 17.01.2017.
- */
 public class Main {
 
     public static void main(String[] args) throws IOException {
-
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Input text please: ");
@@ -21,13 +16,9 @@ public class Main {
         char symbol = sc.next().trim().charAt(0); // reading char from keyboard and avoiding spaces;
         sc.close();
 
-
         Sentence sentence = new Sentence(text);
-      //  Changer changer = new Changer();
-         System.out.print("Sentence before change: " + sentence.getOriginalText() );
-      //  changer.change(sentence, position, symbol);
+        System.out.print("Sentence before change: " + sentence.getOriginalText() );
         System.out.println();
-
         System.out.print("Sentence after change: " );
 
         for(Word word : sentence.getSentence()){
@@ -35,9 +26,6 @@ public class Main {
         }
         System.out.println();
 
-
-
-       // System.out.println(new Changer().replace("We are gonna win", 2, '2'));
     }
 
 }

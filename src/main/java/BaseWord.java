@@ -1,6 +1,3 @@
-/**
- * Created by Hp on 17.01.2017.
- */
 public class BaseWord {
 
         protected String originalText;
@@ -9,7 +6,7 @@ public class BaseWord {
             this.originalText = text;
         }
 
-        protected  String getOriginalText() { // только наследники будут иметь доступ к нему!!!
+        protected  String getOriginalText() {  //  only inherited classes have access
             return originalText;
         }
     }
