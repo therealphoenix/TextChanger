@@ -5,8 +5,6 @@ public class Sentence extends BaseWord{
 
     private List<Word> listOfWords;
 
-
-
     public List<Word> getSentence() {
         return listOfWords;
     }
