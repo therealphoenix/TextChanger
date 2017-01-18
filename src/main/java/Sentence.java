@@ -4,7 +4,7 @@ import java.util.List;
 public class Sentence extends BaseWord{
 
     private List<Word> listOfWords;
-    private String[] words;
+
 
 
     public List<Word> getSentence() {
