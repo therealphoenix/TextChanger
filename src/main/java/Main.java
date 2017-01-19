@@ -13,7 +13,7 @@ public class Main {
         int position = sc.nextInt();
 
         System.out.println("Input symbol please:");
-        char symbol = sc.next().trim().charAt(0); // reading char from keyboard and avoiding spaces;
+        char symbol = sc.next().trim().charAt(0);
         sc.close();
 
         Sentence sentence = new Sentence(text);
@@ -21,14 +21,15 @@ public class Main {
         System.out.println();
         System.out.print("Sentence after change: " );
 
-        /*for(Word word : sentence.getSentence()){
-            System.out.print(sentence.getWordWithModifiedChar(word,position,symbol) + " ");
-                    }
-        System.out.println();
-*/        for(Word word : sentence.getSentence()){
-            System.out.print(word.getWordWithModifiedChar(position, symbol) + " " );
+        StringBuilder builder = new StringBuilder();
+        String space = " ";
+
+          for(Word word : sentence.getSentence()){
+            builder.append(word.getWordWithModifiedChar(position, symbol));
+            builder.append(space);
         }
-        System.out.println();
+        System.out.println(builder.toString());
+
 
 
     }

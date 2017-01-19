@@ -11,12 +11,13 @@ public class Sentence extends BaseWord {
 
     public Sentence(String text) {
         super(text);
+        this.listOfWords = new LinkedList<Word>();
         String[] words = (text + " ").split("\\p{P}?[ \\t\\n\\r]+"); // regular expressions
-        createListFromArrayOfWords(words);
+        fillListFromArrayOfWords(words);
     }
 
-    private void createListFromArrayOfWords(String[] words) {
-        listOfWords = new LinkedList<Word>();
+    private void fillListFromArrayOfWords(String[] words) {
+
         for (String word : words) {
             listOfWords.add(new Word(word));
         }
