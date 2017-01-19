@@ -6,12 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9647be5-a618-4ecc-b9f0-735ed8228fb4" name="Default" comment="method getWordWithModifiedChar moved to Word.class">
+    <list default="true" id="d9647be5-a618-4ecc-b9f0-735ed8228fb4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BaseWord.java" afterPath="$PROJECT_DIR$/src/main/java/BaseWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Sentence.java" afterPath="$PROJECT_DIR$/src/main/java/Sentence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Word.java" afterPath="$PROJECT_DIR$/src/main/java/Word.java" />
     </list>
     <ignored path="TextChanger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Sentence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -733,7 +729,7 @@
       <option name="presentableId" value="Default" />
       <updated>1484664684991</updated>
       <workItem from="1484664690980" duration="22942000" />
-      <workItem from="1484841201161" duration="2461000" />
+      <workItem from="1484841201161" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="TextChanger">
       <created>1484678724167</created>
@@ -791,11 +787,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484839016755</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="before upload">
+      <created>1484861562571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484861562571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25403000" />
+    <option name="totallyTimeSpent" value="25453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -838,7 +841,8 @@
     <MESSAGE value="TextChanger1" />
     <MESSAGE value="Version w/o comments. Should  I add them ?" />
     <MESSAGE value="method getWordWithModifiedChar moved to Word.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="method getWordWithModifiedChar moved to Word.class" />
+    <MESSAGE value="before upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="before upload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -906,7 +910,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Sentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
