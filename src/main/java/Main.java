@@ -21,10 +21,15 @@ public class Main {
         System.out.println();
         System.out.print("Sentence after change: " );
 
-        for(Word word : sentence.getSentence()){
+        /*for(Word word : sentence.getSentence()){
             System.out.print(sentence.getWordWithModifiedChar(word,position,symbol) + " ");
+                    }
+        System.out.println();
+*/        for(Word word : sentence.getSentence()){
+            System.out.print(word.getWordWithModifiedChar(position, symbol) + " " );
         }
         System.out.println();
+
 
     }
 

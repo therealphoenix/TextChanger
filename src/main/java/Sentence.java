@@ -22,7 +22,7 @@ public class Sentence extends BaseWord{
         }
     }
 
-        public String getWordWithModifiedChar(Word word, int index, char symbol) {
+   /*     public String getWordWithModifiedChar(Word word, int index, char symbol) {
             if(word == null){
                 return null;
             }
@@ -35,7 +35,7 @@ public class Sentence extends BaseWord{
 
             return String.valueOf(chars);
     }
-
+*/
 
 }
 
